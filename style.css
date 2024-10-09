@@ -1,0 +1,12 @@
+:root {
+    --fundo: 	#000000;
+    --cartao-frente: #66CDAA;
+    --cartao-verso: #2F4F4F;
+    --destaque: #00FF00;
+    --preto: #000000;
+    --branco: #ffffff;
+}
+
+body{
+    background-color: var(--fundo);
+}
