@@ -22,7 +22,7 @@ footer{
     text-align: center;
 }
 
-#Container{
+#container{
     display: flex;
     padding: 4rem;
     gap: 3rem;
