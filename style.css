@@ -73,7 +73,7 @@ footer{
 }
 
 .cartao:hover .conteudoCartao{
-    transform: rotateX(180deg);
+    transform: rotateY(180deg);
 }
 
 .perguntaCartao, .respostaCartao{
