@@ -36,13 +36,13 @@ footer{
     height: 20rem;
 }
 
-.conteudo-cartao{
+.conteudoCartao{
     background-color: var(--cartao-frente);
     text-align: center;
     height: 100%;
 }
 
-.conteudo-cartao h3{
+.conteudoCartao h3{
     background-color: var(--destaque);
     border: 1px solid var(--destaque);
     text-align: left;
