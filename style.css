@@ -83,3 +83,9 @@ footer{
     width: 100%;
     box-sizing: border-box;
 }
+
+.respostaCartao{
+    transform: rotateY(180deg);
+    background-color: var(--cartao-verso);
+    border: 20px solid var(--destaque);
+}
