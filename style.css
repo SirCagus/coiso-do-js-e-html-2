@@ -21,3 +21,9 @@ footer{
     width: 100%;
     text-align: center;
 }
+
+#Container{
+    display: flex;
+    padding: 4rem;
+    gap: 3rem;
+}
