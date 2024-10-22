@@ -45,3 +45,7 @@ header a{
     background-color: var(--cartao-frente);
     box-shadow: 25px 25px 25px var(--preto);
 }
+
+.conteudoCartao:hover{
+    transform: scale(1.02);
+}
