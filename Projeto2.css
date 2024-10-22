@@ -39,3 +39,9 @@ header a{
     display: grid;
     gap: 3rem;
 }
+
+.conteudoCartao{
+    padding: 4rem;
+    background-color: var(--cartao-frente);
+    box-shadow: 2px 2px 2px var(--preto);
+}
