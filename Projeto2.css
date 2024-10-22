@@ -44,6 +44,8 @@ header a{
     padding: 4rem;
     background-color: var(--cartao-frente);
     box-shadow: 25px 25px 25px var(--preto);
+    border: 10px solid var(--destaque);
+    border-radius: 2px;
 }
 
 .conteudoCartao:hover{
