@@ -54,5 +54,6 @@ header a{
 
 .cartao .conteudoCartao:active{
     transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
     transform: rotateY(180deg);
 }
