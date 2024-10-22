@@ -1,5 +1,5 @@
 :root {
-    --fundo: 	#000000;
+    --fundo: #000000;
     --cartao-frente: #66CDAA;
     --cartao-verso: #2F4F4F;
     --destaque: #00FF00;
@@ -7,22 +7,22 @@
     --branco: #ffffff;
 }
 
-body{
+body {
     background-color: var(--fundo);
     margin: 0;
-    color:var(--preto)
+    color: var(--preto);
 }
 
-footer{
+footer {
     position: fixed;
     bottom: 0;
-    background-color:var(--branco) ;
+    background-color: var(--branco);
     color: var(--preto);
     width: 100%;
     text-align: center;
 }
 
-header{
+header {
     background-color: var(--preto);
     color: var(--branco);
     padding: 2rem;
@@ -30,17 +30,17 @@ header{
     justify-content: space-around;
 }
 
-header a{
+header a {
     color: var(--branco);
-    
+
 }
 
-#container{
+#container {
     display: grid;
     gap: 3rem;
 }
 
-.conteudoCartao{
+.conteudoCartao {
     padding: 4rem;
     background-color: var(--cartao-frente);
     box-shadow: 25px 25px 25px var(--preto);
@@ -48,12 +48,13 @@ header a{
     border-radius: 2px;
 }
 
-.conteudoCartao:hover{
+.conteudoCartao:hover {
     transform: scale(1.02);
 }
 
-.cartao .conteudoCartao:active{
+.cartao .conteudoCartao:active {
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
     transform: rotateY(180deg);
+    backface-visibility: hidden;
 }
