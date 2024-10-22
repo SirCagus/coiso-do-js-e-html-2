@@ -60,6 +60,7 @@ header a {
 }
 
 .respostaCartao{
+    backface-visibility: hidden;
     background-color: var(--cartao-verso);
     transform: rotateY(180deg);
 }
