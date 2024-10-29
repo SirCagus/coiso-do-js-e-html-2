@@ -89,7 +89,6 @@ footer{
     transform: rotateY(180deg);
     background-color: var(--cartao-verso);
     border: 20px solid var(--destaque);
-    display: none;
 }
 
 header{

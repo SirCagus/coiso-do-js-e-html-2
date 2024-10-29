@@ -66,6 +66,7 @@ header a {
     transform: rotateY(180deg);
     height:100%;
     width: 100%;
+    display: none;
 }
 
 .respostaCartao{
