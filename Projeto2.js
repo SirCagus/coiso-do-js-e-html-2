@@ -20,4 +20,4 @@ const Resposta = card.querySelector('.respostaCartao');
 if (Resposta.style.display === 'none')
    Resposta.style.display = 'block' ;
 
-else {Resposta.style.display = 'none'}}
+else Resposta.style.display = 'none'}
