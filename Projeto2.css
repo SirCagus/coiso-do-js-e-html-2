@@ -57,8 +57,6 @@ header a {
     backface-visibility: hidden;
     background-color: var(--cartao-verso);
     transform: rotateY(180deg);
-    height:100%;
-    width: 100%;
     color: var(--branco);
     padding: 40px;
     margin-top: 15px;
