@@ -56,7 +56,6 @@ header a {
 .respostaCartao{
     backface-visibility: hidden;
     background-color: var(--cartao-verso);
-    transform: rotateY(180deg);
     color: var(--branco);
     padding: 40px;
     margin-top: 15px;
