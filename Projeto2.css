@@ -46,6 +46,7 @@ header a {
     box-shadow: 25px 25px 25px var(--preto);
     border: 5px solid var(--destaque);
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .conteudoCartao:hover {
@@ -65,4 +66,9 @@ header a {
     transform: rotateY(180deg);
     height:100%;
     width: 100%;
+}
+
+.respostaCartao{
+    background-color: var(--cartao-verso);
+    color: var(--branco);
 }
