@@ -18,6 +18,6 @@ container.appendChild(cartao);
 function mostraCartao(card) {
 const Resposta = card.querySelector('.respostaCartao');
 if (Resposta.style.display === 'none')
-   (Resposta.style.display = 'block')
+   Resposta.style.display = 'block' ;
 
 else (Resposta.style.display = 'none')}
