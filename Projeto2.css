@@ -66,12 +66,8 @@ header a {
     transform: rotateY(180deg);
     height:100%;
     width: 100%;
-    display: none;
-}
-
-.respostaCartao{
-    background-color: var(--cartao-verso);
     color: var(--branco);
     padding: 40px;
     margin-top: 15px;
+    display: none;
 }
