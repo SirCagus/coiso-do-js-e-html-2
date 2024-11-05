@@ -23,4 +23,6 @@ cartao.addEventListener('click', viraCartao);
 
 container.appendChild(cartao)
 
+cartao.onclick = "RespostaVisivel()"
+
 }
