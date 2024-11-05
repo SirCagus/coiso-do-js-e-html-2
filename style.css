@@ -73,7 +73,7 @@ footer{
     color: var(--destaque);
 }
 
-.cartao:active .conteudoCartao{
+.cartao:enabled .conteudoCartao{
     transform: rotateY(180deg);
 }
 
