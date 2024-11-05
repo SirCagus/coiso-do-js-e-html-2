@@ -16,7 +16,8 @@ container.appendChild(cartao);
 let RespostaVisivel = false;
 function viraCartao(){
     RespostaVisivel = !RespostaVisivel
-    cartao.classList.toggle('.cartao:active .conteudoCartao', RespostaVisivel)
+    var element = document.getElementById("cartao");
+    cartao.classList.toggle('active', RespostaVisivel)
 }
 
 cartao.addEventListener('click', viraCartao);
